@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Henry.Twitter.Analyzation.Models\Henry.Twitter.Analyzation.Models.csproj" />
+  </ItemGroup>
+
+</Project>

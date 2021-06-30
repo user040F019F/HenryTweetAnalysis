@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Tester", "Henry.Console\Henry.Tester.csproj", "{54D4C8B0-89FC-4A76-BA56-4545AAFE8FA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Shepherd", "Henry.Twitter.Shepherd\Henry.Twitter.Shepherd.csproj", "{54D52ECC-05C9-4D1B-B220-C4B21E5FE135}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Shepherd.Abstractions", "Henry.Twitter.Shepherd.Abstractions\Henry.Twitter.Shepherd.Abstractions.csproj", "{8B33B38E-08B7-4973-A14F-E7B8BD09D44D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Statistics.Abstractions", "Henry.Twitter.Statistics.Abstractions\Henry.Twitter.Statistics.Abstractions.csproj", "{841E993F-09C6-4EF2-B0D8-5B83906BB5E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Analyzation.Abstractions", "Henry.Twitter.Analyzation.Abstractions\Henry.Twitter.Analyzation.Abstractions.csproj", "{66730E23-CE18-4D38-97E3-ADA77C72E0EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Shepherd.Invi", "Henry.Twitter.Shepherd.Invi\Henry.Twitter.Shepherd.Invi.csproj", "{430F758A-6305-4360-B8B9-343EE1A66E8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Emoji", "Henry.Twitter.Emoji\Henry.Twitter.Emoji.csproj", "{DC91E296-3A0D-4BC3-8817-A9432389D165}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12CC9EA1-E8E5-416A-A2B6-11D80D08FB23}"
+	ProjectSection(SolutionItems) = preProject
+		EmojiDefinitions.json = EmojiDefinitions.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Shepherd.Distribution", "Henry.Twitter.Shepherd.Distribution\Henry.Twitter.Shepherd.Distribution.csproj", "{6A6DEA71-30B7-468F-A5DF-B7E6D066A75C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Analyzation.Models", "Henry.Twitter.Analyzation.Models\Henry.Twitter.Analyzation.Models.csproj", "{73534F84-5B08-4E66-86EC-40393445CDAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Henry.Twitter.Statistics.InMemory", "Henry.Twitter.Statistics.InMemory\Henry.Twitter.Statistics.InMemory.csproj", "{E609B9D7-E6F3-4577-BC4D-32A0EEFEEF5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54D4C8B0-89FC-4A76-BA56-4545AAFE8FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D4C8B0-89FC-4A76-BA56-4545AAFE8FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D4C8B0-89FC-4A76-BA56-4545AAFE8FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D4C8B0-89FC-4A76-BA56-4545AAFE8FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D52ECC-05C9-4D1B-B220-C4B21E5FE135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D52ECC-05C9-4D1B-B220-C4B21E5FE135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D52ECC-05C9-4D1B-B220-C4B21E5FE135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D52ECC-05C9-4D1B-B220-C4B21E5FE135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B33B38E-08B7-4973-A14F-E7B8BD09D44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B33B38E-08B7-4973-A14F-E7B8BD09D44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B33B38E-08B7-4973-A14F-E7B8BD09D44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B33B38E-08B7-4973-A14F-E7B8BD09D44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841E993F-09C6-4EF2-B0D8-5B83906BB5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841E993F-09C6-4EF2-B0D8-5B83906BB5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841E993F-09C6-4EF2-B0D8-5B83906BB5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841E993F-09C6-4EF2-B0D8-5B83906BB5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66730E23-CE18-4D38-97E3-ADA77C72E0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66730E23-CE18-4D38-97E3-ADA77C72E0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66730E23-CE18-4D38-97E3-ADA77C72E0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66730E23-CE18-4D38-97E3-ADA77C72E0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430F758A-6305-4360-B8B9-343EE1A66E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430F758A-6305-4360-B8B9-343EE1A66E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430F758A-6305-4360-B8B9-343EE1A66E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430F758A-6305-4360-B8B9-343EE1A66E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC91E296-3A0D-4BC3-8817-A9432389D165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC91E296-3A0D-4BC3-8817-A9432389D165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC91E296-3A0D-4BC3-8817-A9432389D165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC91E296-3A0D-4BC3-8817-A9432389D165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6DEA71-30B7-468F-A5DF-B7E6D066A75C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6DEA71-30B7-468F-A5DF-B7E6D066A75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6DEA71-30B7-468F-A5DF-B7E6D066A75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6DEA71-30B7-468F-A5DF-B7E6D066A75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73534F84-5B08-4E66-86EC-40393445CDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73534F84-5B08-4E66-86EC-40393445CDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73534F84-5B08-4E66-86EC-40393445CDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73534F84-5B08-4E66-86EC-40393445CDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E609B9D7-E6F3-4577-BC4D-32A0EEFEEF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E609B9D7-E6F3-4577-BC4D-32A0EEFEEF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E609B9D7-E6F3-4577-BC4D-32A0EEFEEF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E609B9D7-E6F3-4577-BC4D-32A0EEFEEF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD53C9AC-DC45-4FFC-8922-69BCA397570C}
+	EndGlobalSection
+EndGlobal
