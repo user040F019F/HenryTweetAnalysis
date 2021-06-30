@@ -20,13 +20,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12CC9EA1-E8E5-416A-A2B6-11D80D08FB23}"
 	ProjectSection(SolutionItems) = preProject
 		EmojiDefinitions.json = EmojiDefinitions.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Shepherd.Distribution", "Henry.Twitter.Shepherd.Distribution\Henry.Twitter.Shepherd.Distribution.csproj", "{6A6DEA71-30B7-468F-A5DF-B7E6D066A75C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Analyzation.Models", "Henry.Twitter.Analyzation.Models\Henry.Twitter.Analyzation.Models.csproj", "{73534F84-5B08-4E66-86EC-40393445CDAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Henry.Twitter.Statistics.InMemory", "Henry.Twitter.Statistics.InMemory\Henry.Twitter.Statistics.InMemory.csproj", "{E609B9D7-E6F3-4577-BC4D-32A0EEFEEF5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Henry.Twitter.Statistics.InMemory", "Henry.Twitter.Statistics.InMemory\Henry.Twitter.Statistics.InMemory.csproj", "{E609B9D7-E6F3-4577-BC4D-32A0EEFEEF5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
